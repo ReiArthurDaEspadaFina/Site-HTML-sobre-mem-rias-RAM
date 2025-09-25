@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Memória RAM - Conteúdo Completo</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            
+            /*ediramos aqui*/
+            margin: 0; 
+            font-family: Arial, sans-serif;
+            padding-bottom: 150px;
+        }
+
+        .rodape {
+          position: fixed;
+          bottom: 0;         
+          left: 0;
+          width: 100%;       
+          background: #222;   
+          color: #fff;       
+          text-align: center; 
+          padding: 25px;
+        }
+
+        h1, h2, h3 {
+            color: #00ffcc;
+            text-align: center;
+        }
+
+        h3 {
+            color: #ffcc00;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .imagem-centro {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        img {
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #00ffcc;
+        }
+
+        p, li {
+            margin-bottom: 16px;
+        }
+
+        .resumo {
+            background-color: #111;
+            padding: 15px;
+            border-left: 4px solid #00ffcc;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+
+        strong {
+            color: #ffcc00;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Memória RAM</h1>
+    </header>
+
+    <main>
+
+        <!-- Primeira Fonte -->
+        <section>
+            <h2>O que é memória RAM?</h2>
+            <div class="imagem-centro">
+                <img src="imagens/memoria-ram-de-frente.webp" alt="Memória RAM" />
+            </div>
+            <p>
+                Memória RAM (Random Access Memory) é um tipo de memória volátil usada pelos computadores 
+                para armazenar dados temporários enquanto o sistema está em uso. 
+                Ela é como uma "memória de trabalho" para o computador, onde guarda informações 
+                que estão sendo processadas ou precisam ser acessadas rapidamente.
+            </p>
+            <p>
+                Quando você abre um programa, por exemplo, ele carrega seus dados na RAM para que o processador possa acessá-los rapidamente. 
+                Quanto mais RAM um computador tem, mais programas e processos ele pode executar simultaneamente sem ficar lento. 
+                No entanto, a RAM perde todo o seu conteúdo assim que o computador é desligado (é por isso que é chamada de memória volátil).
+            </p>
+        </section>
+
+        <section>
+            <h2>O que são as entradas da Memória RAM?</h2>
+            <div class="imagem-centro">
+                <img src="imagens/Entrada-de-memoria-ram.jpg" alt="Entrada da Memória RAM" />
+            </div>
+            <p>
+                As "entradas" da memória RAM referem-se aos mecanismos pelos quais os dados são acessados ou inseridos. 
+                Isso inclui o <strong>Barramento de Dados</strong>, que transmite os próprios dados; 
+                o <strong>Barramento de Endereços</strong>, que indica a localização específica na memória; 
+                e o <strong>Controlador de Memória</strong>, que gerencia toda a comunicação entre a CPU e a RAM. 
+                Fisicamente, a RAM se conecta à placa-mãe através dos <strong>Slots de RAM</strong>.
+            </p>
+        </section>
+
+        <section>
+            <h2>Tipos de Memória RAM</h2>
+
+            <h3>Introdução</h3>
+            <p>
+                A memória RAM é essencial para o funcionamento de computadores e dispositivos móveis, 
+                existindo várias versões e tipos, cada uma com características específicas.
+            </p>
+
+            <h3>Tipos Comuns</h3>
+            <ul>
+                <li><strong>DRAM (Dynamic RAM):</strong> Comum em computadores, exige recarga constante. Menor custo, mas mais lenta.</li>
+                <li><strong>SRAM (Static RAM):</strong> Mais rápida e cara, não precisa ser recarregada. Usada em cache de processadores.</li>
+                <li><strong>SDRAM (Synchronous DRAM):</strong> Sincroniza com o processador, permitindo comunicação eficiente. Mais rápida que a DRAM tradicional.</li>
+                <li><strong>DDR SDRAM:</strong> Dobra a quantidade de dados transmitidos por ciclo de clock. Inclui versões como DDR4 e DDR5.</li>
+                <li><strong>LPDDR (Low Power DDR):</strong> Variante de baixo consumo, ideal para dispositivos móveis.</li>
+            </ul>
+
+            <h3>Outros Tipos</h3>
+            <ul>
+                <li><strong>GDDR:</strong> Usada em placas de vídeo, com alta largura de banda. Versões: GDDR5, GDDR6, GDDR6X.</li>
+                <li><strong>ECC RAM:</strong> Corrige erros automaticamente, usada em servidores e sistemas críticos.</li>
+                <li><strong>NVRAM:</strong> Retém dados mesmo sem energia, combinando velocidade com persistência.</li>
+                <li><strong>RAM para Smartphones:</strong> Versões como LPDDR4X e LPDDR5 garantem desempenho rápido e economia de energia.</li>
+            </ul>
+        </section>
+
+        <section class="resumo">
+            <h3>Resumo sobre Memórias RAM</h3>
+            <p>
+                A RAM é crucial para o desempenho de computadores e dispositivos móveis.  
+                A <strong>DRAM</strong> é a mais comum por seu baixo custo e alta capacidade, enquanto a <strong>SRAM</strong> é mais rápida e usada em cache.  
+                Variantes como <strong>SDRAM</strong>, <strong>DDR</strong> e <strong>LPDDR</strong> atendem diferentes necessidades de velocidade e eficiência.  
+                Já a <strong>GDDR</strong> é usada em placas gráficas e a <strong>ECC RAM</strong> em servidores.  
+                Sua função principal é atuar como memória de curto prazo, permitindo multitarefa e execução de programas pesados.
+            </p>
+        </section>
+
+        <hr style="border-color: #00ffcc; margin: 40px 0;" />
+
+        <!-- Segunda Fonte -->
+        <section>
+            <h2>Memória RAM - Explicação Complementar</h2>
+
+            <p>
+                Memória RAM (Random Access Memory) é uma memória volátil usada para armazenar dados temporários enquanto o sistema está em uso.
+                Ela funciona como uma "memória de trabalho" onde são mantidas as informações que estão sendo processadas ou que precisam ser acessadas rapidamente.
+            </p>
+
+            <div class="imagem-centro">
+                <img src="imagens/memoria-ram-de-frente.webp" alt="Memória RAM" />
+            </div>
+
+            <h3>Entradas da Memória RAM</h3>
+            <div class="imagem-centro">
+                <img src="imagens/Entrada-de-memoria-ram.jpg" alt="Entrada da Memória RAM" />
+            </div>
+            <p>
+                As entradas referem-se aos mecanismos de acesso e inserção de dados:
+                <strong>Barramento de Dados</strong>, <strong>Barramento de Endereços</strong>, e o <strong>Controlador de Memória</strong>.
+                A RAM conecta-se aos slots da placa-mãe.
+            </p>
+
+            <h3>Exemplos de Memória RAM</h3>
+            <div class="imagem-centro">
+                <img src="imagens/toalha.jpg" alt="Exemplo de Memória RAM" />
+            </div>
+
+            <h3>Tipos de Memória RAM</h3>
+
+            <h4>Introdução</h4>
+            <p>
+                A memória RAM é essencial para computadores e dispositivos móveis, existindo diversas versões com características específicas.
+            </p>
+
+            <h4>Tipos Comuns</h4>
+            <ul>
+                <li><strong>DRAM (Dynamic RAM):</strong> comum, exige recarga constante, custo menor, porém mais lenta.</li>
+                <li><strong>SRAM (Static RAM):</strong> mais rápida e cara, usada em cache de processadores.</li>
+                <li><strong>SDRAM (Synchronous DRAM):</strong> sincroniza com clock do processador, mais rápida que DRAM tradicional.</li>
+                <li><strong>DDR SDRAM:</strong> dobra a quantidade de dados por ciclo, inclui DDR4, DDR5.</li>
+                <li><strong>LPDDR (Low Power DDR):</strong> versão de baixo consumo para dispositivos móveis, economiza bateria.</li>
+            </ul>
+
+            <h4>Tipos Específicos</h4>
+            <h5>GDDR (Graphics DDR)</h5>
+            <div class="imagem-centro">
+                <img src="imagens/placa.webp" alt="Memória GDDR" />
+            </div>
+            <p>
+                Otimizada para placas de vídeo, alta largura de banda, ideal para gráficos e jogos. Versões: GDDR5, GDDR6, GDDR6X.
+            </p>
+
+            <h5>ECC RAM (Error Correcting Code)</h5>
+            <div class="imagem-centro">
+                <img src="imagens/não.jpg" alt="Memória ECC RAM" />
+            </div>
+            <p>
+                Detecta e corrige erros automaticamente, usada em servidores e sistemas críticos. Mais confiável, porém mais cara.
+            </p>
+
+            <h5>NVRAM (Non-Volatile RAM)</h5>
+            <div class="imagem-centro">
+                <img src="imagens/sim.jpg" alt="Memória NVRAM" />
+            </div>
+            <p>
+                Retém dados mesmo sem energia, combinando velocidade da RAM com persistência. Usada em armazenamento rápido e duradouro.
+            </p>
+
+            <h5>RAM para Smartphones e Tablets</h5>
+            <div class="imagem-centro">
+                <img src="imagens/osupa.jpg" alt="RAM para dispositivos móveis" />
+            </div>
+            <p>
+                Usam versões LPDDR4X e LPDDR5 para desempenho rápido e eficiência energética. Tamanhos variam de 4GB a 12GB.
+            </p>
+
+            <h3>Resumo sobre Memórias RAM</h3>
+            <p>
+                A RAM é fundamental para desempenho em computadores e dispositivos móveis.
+                DRAM é a mais usada por custo e capacidade, SRAM é mais rápida e usada em cache.
+                SDRAM, DDR e LPDDR atendem diferentes necessidades.
+                VRAM é para vídeo, ECC RAM corrige erros.
+                RAM funciona como memória de curto prazo para multitarefa e programas pesados.
+            </p>
+        </section>
+
+    </main>
+
+
+
+    <div class="rodape">
+        Equipe: 
+        <a href="./perfil1.html" style="color: rgb(144, 255, 130); font-weight: bold; text-decoration: underline;">Kenai</a>
+        •
+        <a href="./perfil2.html" style="color: rgb(144, 255, 130); font-weight: bold; text-decoration: underline;">Lucas</a>
+        •
+        <a href="./perfil3.html" style="color: rgb(144, 255, 130); font-weight: bold; text-decoration: underline;">Rafferty</a>
+    </div>
+
+
+
+</body>
+</html>
